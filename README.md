@@ -9,7 +9,7 @@ Projeto original e independente, inspirado no Viewfinder (Sad Owl Studios). Nenh
    pkg install -y git unzip
    cd ~ && unzip ~/storage/downloads/Viewfinder_V0.2_ALPHA.zip && cd Viewfinder_V0.2
    git init -b main && git add -A && git commit -m "V0.2 ALPHA"
-   git remote add origin https://github.com/SEU_USUARIO/viewfinder-mobile.git
+   git remote add origin https://github.com/playerzin13mv/viewfinder-mobile.git
    git push -u origin main      (usuario = seu login, senha = o token)
 3. Aguarde ~8 min na aba Actions. O APK aparece em Releases > "Viewfinder V0.2 ALPHA". Baixe e instale.
 
