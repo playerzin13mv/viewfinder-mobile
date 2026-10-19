@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(vfengine CXX)
+add_library(vfengine SHARED engine.cpp)
+find_library(log-lib log)
+target_link_libraries(vfengine GLESv3 ${log-lib})
